@@ -1,0 +1,23 @@
+.header a, a:hover {
+    color: #f0ad4e;
+    text-decoration: none;
+}
+
+.header h1 {
+    letter-spacing: 15px;
+    font-size: 300%;
+}
+
+.header p {
+    color: white !important;
+    font-size: 90%;
+}
+
+.nav-pills>li>a {
+    color: white;
+}
+
+.nav-pills>li>a:hover {
+    background-color: #337ab7;
+}
+
