@@ -21,8 +21,13 @@
     background-color: #337ab7;
 }
 
+.nav>li>a:focus {
+    background-color: #337ab7;
+}
+
 .navbar-inverse {
     padding: 1%;
+    border-radius: 0;
 }
 
 @media (max-width: 768px) {
@@ -69,6 +74,54 @@ html, body {
 
 .margin-8 {
     margin-top: 8%;
+}
+
+.panel {
+    bottom: none;
+}
+
+.panel-body {
+    background-color: #f9f9f9;
+}
+
+.panel-info {
+    border-color: #f9f9f9;
+}
+
+.panel-info>.panel-heading {
+    background-color: #f0ad4e;
+    color: white;
+    border-color: transparent;
+}
+
+.sidebar-header {
+    font-size: 120%;
+    letter-spacing: 2%;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+.input-lg {
+    font-size: 14px;
+}
+
+.list-group-item-warning {
+    color: #8a6d3b;
+    background-color: #f9f9f9;
+}
+
+.badge {
+    background-color: #000;
+}
+
+.form-control {
+    font-size: 14px;
+}
+
+p {
+    color: #222;
 }
 
 .films_block img {
